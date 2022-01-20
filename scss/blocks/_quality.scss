@@ -1,0 +1,46 @@
+.quality{
+    background-color:#163A24;
+    display: flex;
+}
+
+.quality__content{
+    display: flex;
+    flex-direction: column;
+    padding: 66px 0 139px 0;
+}
+
+.qulity__title{
+    margin: 0 auto 66px;
+    padding: 0;
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 48px;
+    color: #FBFAF7;
+}
+
+.quality__text{
+    font-family: 'Noto Sans';
+    font-size: 18px;
+    line-height: 27px;
+    color: #FBFAF7;
+}
+
+.quality__list{
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.quality__item{
+    margin: 0 auto;
+}
+
+.quality__item ~ .quality__item{
+    margin-left: 100px;
+}
+
+.quality__img{
+    margin-bottom: 28px;
+}

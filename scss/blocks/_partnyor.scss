@@ -1,0 +1,27 @@
+.partnyor__content{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+
+.partnyor__title{
+    margin:0 auto 66px;
+    font-family: 'Recoleta';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #163A24;
+}
+
+.list{
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.list__items + .list__items{
+    margin-left: 86px;
+}

@@ -1,0 +1,137 @@
+.easy{
+    background-color:#F2EFE6;
+    margin-bottom: 130px;
+}
+
+.easy__block{
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0;
+}
+
+.easy__content{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.easy__list{
+    
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 46px;
+}
+
+.easy__piese1{
+    position: relative;
+    list-style: none; 
+
+    &::before{
+        content: "";
+        position: absolute;
+        z-index: 1;
+        background-image: url(../images/top-left.svg);
+        background-repeat: no-repeat;
+        width: 75px;
+        height: 35px;
+        top: 30px;
+        left: 310px;
+    }
+}
+
+.easy__piese2{
+    position: relative;
+    list-style: none; 
+
+    &::before{
+        content: "";
+        position: absolute;
+        z-index: 1;
+        background-image: url(../../images/bottom-left.svg);
+        background-repeat: no-repeat;
+        width: 75px;
+        height: 35px;
+        top: 30px;
+        left: 310px;
+    }
+}
+
+.easy__piese3{
+    position: relative;
+    list-style: none; 
+
+    &::before{
+        content: "";
+        position: absolute;
+        z-index: 1;
+        background-image: url(../../images/circle.svg);
+        background-repeat: no-repeat;
+        width: 286px;
+        height: 180px;
+        top: -40px;;
+        right: 0;
+    }
+}
+
+.easy__items{
+    width: 260px;
+    list-style: none;
+
+    &::before{
+        background-image: url("../../images/Vector1.svg");
+        background-repeat: no-repeat;
+        width: 75px;
+        height: 35px;
+
+    }
+}
+
+.easy__title{
+    margin-bottom: 26px;
+    font-family: "Recoleta";
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 54px;
+    // text-align: center;
+}
+
+.easy__desc{
+    margin-bottom: 60px;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    line-height: 27px;
+    // text-align: center;
+    color: #163A24;
+}
+
+.easy__item{
+    margin-bottom: 13px;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    line-height: 27px;
+    // text-align: center;
+    color: #163A24;
+}
+
+.easy__number{
+    font-family: "Recoleta";
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 31px;
+    // text-align: center;
+    color: #163A24;
+}
+
+.easy__button{
+    display: flex;
+    margin: 0 auto;
+    padding: 15px 25px;
+    background-color: #198C36;
+    border-radius: 160px;
+    border: none;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FBFAF7;
+}
